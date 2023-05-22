@@ -30,7 +30,7 @@ def communicate():
 
 # Building UI
 st.title("Educational Assistant for Toma")
-st.image("robot.png")
+st.image("robot_teacher.png")
 st.write("I am a chatbot based on ChatGPT API, specialised on supporting Toma in education.")
 
 user_input = st.text_input("Please enter your message.", key="user_input", on_change=communicate)
